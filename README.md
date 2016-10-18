@@ -1,6 +1,4 @@
-# Hunters-and-collectors
-Terminal Game
+# Hunters-and-Collectors
+Welcome to Hunters and Collectors (or Hunters-and-Collectors)!
 
-READ ME will coming soon!
-nice hat geklappt :D
-haha :D
+Hunters and Collectors is a terminal game which is currently in development!
