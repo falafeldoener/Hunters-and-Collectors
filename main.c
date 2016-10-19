@@ -14,24 +14,30 @@ last change:
 int main()
 {
     //Declaration main_page selection
-    int *piSelection;
+    int iSelection;
 
-    main_page(piSelection);
+    main_page();
 
-    switch(*piSelection)
+    //
+    scanf("%d", &iSelection);       fflush(stdin);
+
+    //Chooses the option
+    switch(iSelection)
     {
         case 1:
-            printf("1\n");
+
         break;
         case 2:
-            printf("2\n");
+
         break;
         case 3:
-            printf("3\n");
+
         break;
         case 4:
-            printf("4");
+
         break;
+        default:
+            printf("WRONG INPUT!\n");
     }
 
     return 0;

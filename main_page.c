@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main_page.h"
 
-void main_page(int *piSelektion)
+void main_page()
 {
     //Main page header
     printf("********************************************************************************\n");
@@ -36,7 +36,5 @@ void main_page(int *piSelektion)
     printf("\t\t*************************************************\n");
     printf("\t\t*\t\t[4] ABOUT US\t\t\t*\t\t\n");
     printf("\t\t*************************************************\n");
-
-    scanf("%d", piSelektion);       fflush(stdin);
 
 }
